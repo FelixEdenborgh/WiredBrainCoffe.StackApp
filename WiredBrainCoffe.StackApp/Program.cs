@@ -14,7 +14,7 @@ namespace WiredBrainCoffe.StackApp
 
         private static void StackDoubles()
         {
-            var stack = new SimpleStack<double>(); //type safe
+            var stack = new Stack<double>(); //type safe
             stack.Push(1.2);
             stack.Push(2.8);
             stack.Push(3.0);
@@ -33,7 +33,7 @@ namespace WiredBrainCoffe.StackApp
 
         private static void StackStrings()
         {
-            var stack = new SimpleStack<string>(); //type safe
+            var stack = new Stack<string>(); //type safe
             stack.Push("Wired Brain Coffee");
             stack.Push("Pluralsight");
 

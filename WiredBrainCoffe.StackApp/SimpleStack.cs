@@ -1,12 +1,12 @@
 ﻿namespace WiredBrainCoffe.StackApp
 {
-    public class SimpleStack<T>
+    public class Stack<T>
     {
         private readonly T[] _items;
         private int _currentIndex = -1;
 
         //Konstruktor
-        public SimpleStack() => _items = new T[10]; // Initierar med en storlek på 10
+        public Stack() => _items = new T[10]; // Initierar med en storlek på 10
 
         public int Count => _currentIndex + 1;
 
